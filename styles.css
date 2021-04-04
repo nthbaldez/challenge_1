@@ -1,0 +1,53 @@
+/* Globals */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+#images {
+    background: white;
+    width: 25.6%;
+    height: 20rem;
+}
+
+#profile {
+    display: flex;
+    
+}
+
+#img-profile {
+    width: 50%;
+    margin-top: -3.4rem;
+    margin-bottom: 1.3rem;
+    border: 10px;
+}
+
+.img {
+    border-radius: 20rem;
+    border: 0.3rem solid white;
+}
+
+.dark-blue {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.dark-gray {
+    color: hsl(0, 0%, 59%);
+    font-weight: 700;
+}
+
+.dark-gray.city {
+    font-size: 14px;
+
+}
+
